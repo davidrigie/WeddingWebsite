@@ -34,6 +34,10 @@ div.metabar-container {
       max-width: 50%;
 } 
 
+#logo < img {
+    max-width: 100%;
+}
+
 div.post-content, div.entry-content {
   font-weight: 300;
   font-family: Merriweather, freight-text-pro, Georgia, Cambria, "Times New Roman", Times, serif; }
