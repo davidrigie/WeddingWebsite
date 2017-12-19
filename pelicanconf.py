@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = ''
 SITENAME = ''
 SITEURL = 'http://daveandmolly.org'
+LOGO    = '../images/mollydave.png'
 
 THEME = './themes/medius'
 
