@@ -159,7 +159,8 @@ a{
         font-weight: 500;
         font-family: 'Montserrat', sans-serif;
         letter-spacing: 1.5pt;
-        padding: 20pt 10pt;
+        padding: 0pt 10pt;
+        margin: 20pt 10pt;
         text-transform: uppercase;
     }
 
