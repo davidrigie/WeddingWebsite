@@ -6,10 +6,6 @@
     background-color: rgb(247,247,247);
  }
  
- body{
-     display: none;
- }
-
  div#nav-container{
      overflow: hidden;
  }
