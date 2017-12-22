@@ -175,6 +175,9 @@ a{
         padding: 0pt 2pt;
         margin: 20pt 10pt;
         text-transform: uppercase;
+    }
+
+    a{
         color: rgb(255,253,250);
     }
 
