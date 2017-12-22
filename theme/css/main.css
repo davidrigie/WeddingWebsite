@@ -139,7 +139,7 @@ a{
 
     }
 
-    div.navigation{
+    div.navigation,div.pure-menu-horizontal{
         position: static;
         width: 100%;
     }
