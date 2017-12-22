@@ -196,7 +196,7 @@ a{
 
     a.pure-menu-link{
         color: rgba(255,253,250, 0.75);
-        padding: 10pt 3pt;
+        padding: 10pt 4pt;
     }
 
     .pure-menu-selected a.pure-menu-link{
