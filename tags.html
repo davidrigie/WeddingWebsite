@@ -1,24 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="">
 <head>
         <title>Home</title>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script type="text/javascript">
-            function setup() {
-                document.getElementById('page-container').scrollIntoView({behavior: "smooth", block: "start", inline: "start"});
-                var anchors = document.querySelectorAll(".entry-content a");
-                for (var i=0; i<anchors.length; i++){
-                    anchors[i].setAttribute('target', '_blank');
-                 }
-            }
-            window.onload = setup;
-        </script>
+        <meta name="viewport" content="width=device-width">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,500|Raleway:300" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
         <link rel="stylesheet" href="./theme/css/main.css" />
         
         
@@ -26,7 +19,6 @@
 
 </head>
 <body>
-
 <div id="page-container">
     <div id="logo">
         <img src="./images/mollydave.png" alt="mollydave">
@@ -44,8 +36,10 @@
             </div>
         </div> 
 
-    <div>
+    <div id="content">
 
+    <div id="mobile-logo">
+            <img src="./images/mollydave.png" alt="mollydave">
     </div>
     
     
@@ -63,14 +57,13 @@
 </div>
             
 
+    </div>
     <hr>
-
 
 </div>
     <footer class="index-footer">
 
 
     </footer>
-
 </body>
 </html>
