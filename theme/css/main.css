@@ -263,7 +263,7 @@ a{
 
     .entry-content p{
         max-width: 90%;
-        padding:0pt;
+        padding-bottom:1px;
         margin: 0 auto;
     }
 
