@@ -177,6 +177,7 @@ a{
 
     li.pure-menu-selected{
         text-decoration: underline;
+        text-underline-position: under;
         border: none;
         padding-left: 0pt;
         padding-right: 0pt;
