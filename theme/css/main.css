@@ -126,8 +126,8 @@ a{
         margin: 0pt;
         width: 100%;
     }
-    #Home #logo{
-        display:hidden;
+    #Home {
+        display: hidden;
 
     }
 }
