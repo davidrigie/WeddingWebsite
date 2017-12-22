@@ -5,16 +5,16 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script type="text/javascript">
-            function setup() {
-                document.getElementById('page-container').scrollIntoView({behavior: "instant", block: "start", inline: "start"});
-                 document.getElementsByTagName("body")[0].style.visibility = "visible";
-                var anchors = document.querySelectorAll(".entry-content a");
-                for (var i=0; i<anchors.length; i++){
-                    anchors[i].setAttribute('target', '_blank');
-                 }
-            }
-            window.onload = setup;
-        </script>
+            <script>
+                    document.addEventListener("DOMContentLoaded", function(event) {
+                        document.getElementById('page-container').scrollIntoView({behavior: "instant", block: "start", inline: "start"});
+                        document.getElementsByTagName("body")[0].style.visibility = "visible";
+                       var anchors = document.querySelectorAll(".entry-content a");
+                       for (var i=0; i<anchors.length; i++){
+                           anchors[i].setAttribute('target', '_blank');
+                        }
+                    });
+            </script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" />
