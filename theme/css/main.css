@@ -176,8 +176,7 @@ a{
     }
 
     li.pure-menu-selected{
-        color: black;
-        border-bottom: 2px solid rgb(255,253,250);
+        text-decoration: underline;
         padding-left: 0pt;
         padding-right: 0pt;
     }
