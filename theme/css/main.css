@@ -88,7 +88,9 @@
     font-size: 11pt;
 }
 
-
+a.pure-menu-link{
+    color: inherit;
+}
 
  p{
      font-family: 'Cormorant Garamond', serif;
