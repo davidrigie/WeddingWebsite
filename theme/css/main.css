@@ -132,7 +132,7 @@ a{
         margin: 0pt;
         min-width: 100%;
         min-height: 100%;
-        padding: 10pt auto;
+        padding-top: 10pt;
     }
     #logo{
         display: none;
