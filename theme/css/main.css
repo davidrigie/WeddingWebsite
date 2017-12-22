@@ -128,7 +128,7 @@ a{
         padding: 0pt;
         height: 100%;
         width: 100%;
-        border: 1px solid black;
+        border: 10px solid black;
     }
     div#page-container{
         margin: 0pt;
