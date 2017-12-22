@@ -234,6 +234,7 @@ a{
     div.content{
         margin-top: 75pt;
         padding-top: 50pt;
+        background-color:red;
     }
 
     .entry-content p{
