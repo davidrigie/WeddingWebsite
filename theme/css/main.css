@@ -141,6 +141,7 @@ a{
 
     div.navigation{
         position: static;
+        max-width: 100%;
     }
 
     #Home #mobile-logo{
