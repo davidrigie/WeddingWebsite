@@ -145,11 +145,13 @@ a{
         padding: 0pt;
         margin-top: 0pt;
         padding: 0pt;
-        position: fixed;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */
     }
 
     div.navigation{
-        position: fixed;
+        position: static;
         width: 100%;
     }
 
