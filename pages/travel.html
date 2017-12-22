@@ -5,10 +5,14 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script type="text/javascript">
-            function gototop() {
+            function setup() {
                 document.getElementById('page-container').scrollIntoView({behavior: "smooth", block: "start", inline: "start"});
+                var anchors = document.getElementsByClassName("entry-content").getElementsByTagName('a');
+                for (var i=0; i<anchors.length; i++){
+                    anchors[i].setAttribute('target', '_blank');
+  }
             }
-            window.onload = gototop;
+            window.onload = setup;
         </script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css" />
