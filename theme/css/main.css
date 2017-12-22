@@ -143,6 +143,9 @@ a{
         position: static;
         width: 100%;
     }
+    ul.pure-menu-list{
+        width: 100%;
+    }
 
     #Home #mobile-logo{
         display: block;
