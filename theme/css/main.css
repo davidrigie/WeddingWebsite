@@ -229,6 +229,9 @@ a{
 
     div.entry-content{
         padding: 0pt;
+    }
+
+    div.content{
         margin-top: 75pt;
         padding-top: 50pt;
     }
