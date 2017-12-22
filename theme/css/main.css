@@ -122,6 +122,9 @@ a{
 
  @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+    body{
+        padding: 0pt;
+    }
     div#page-container{
         margin: 0pt;
         width: 100%;
