@@ -132,7 +132,7 @@ a{
         margin: 0pt;
         min-width: 100%;
         min-height: 100%;
-        padding: 0pt;
+        padding: 10pt auto;
     }
     #logo{
         display: none;
@@ -141,7 +141,7 @@ a{
 
     div.nav-container{
         padding: 0pt;
-        margin: 0pt;
+        margin-top: 0pt;
         padding: 0pt;
     }
 
