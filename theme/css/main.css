@@ -186,6 +186,10 @@ a{
         color: rgba(255,253,250, 1);
     }
 
+    .pure-menu-selected a.pure-menu-link{
+        color: rgba(255,253,250, 1);
+    }
+
     ul{
         margin: 0 auto;
     }
