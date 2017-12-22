@@ -175,6 +175,13 @@ a{
         color: rgb(255,253,250);
     }
 
+    li.pure-menu-selected{
+        color: black;
+        border-bottom: 2px solid rgb(255,253,250);
+        padding-left: 1pt;
+        padding-right: 1pt;
+    }
+
     a.pure-menu-link{
         color: rgba(255,253,250, 1);
     }
