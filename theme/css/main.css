@@ -187,6 +187,10 @@ a{
         padding-right: 0pt;
     }
 
+    ul.pure-menu-list{
+        margin: 0;
+    }
+
     a.pure-menu-link{
         color: rgba(255,253,250, 0.75);
     }
