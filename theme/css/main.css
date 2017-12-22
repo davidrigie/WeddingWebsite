@@ -130,6 +130,7 @@ a{
         min-width: 100vh;
         height: 100vh;
         width: 100vh;
+        position: absolute;
     }
     div#page-container{
         margin: 0pt;
