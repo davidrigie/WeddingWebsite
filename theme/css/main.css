@@ -152,7 +152,7 @@ li.pure-menu-selected a.pure-menu-link{
         left:0;
         min-width: 100%; /* Full width */
         height: 75pt;
-        background-color: rgb(255,253,250);
+        background-color: rgba(255,253,250, 0);
     }
 
     div.navigation{
