@@ -155,7 +155,7 @@ a{
     }
 
     li.pure-menu-item{
-        font-size: 12pt;
+        font-size: 14pt;
         font-weight: 500;
         font-family: 'Montserrat', sans-serif;
         letter-spacing: 1.5pt;
@@ -176,7 +176,7 @@ a{
         display: block;
         max-width: 55%;
         margin: 30pt auto;
-        margin-top: 30pt;
+        margin-top: 50pt;
     }
 
     div.pure-menu-horizontal{
