@@ -72,14 +72,22 @@
      text-transform: uppercase;
  }
  
+ .home-content p{
+     font-size: 14pt;
+ }
+
+ .home-content p.allcaps{
+    font-size: 11pt;
+}
+
  p{
      font-family: 'Cormorant Garamond', serif;
-     font-size: 14pt;
+     font-size: 12pt;
      line-height: 150%;
  }
  
  p.allcaps{
-     font-size: 11pt;
+     font-size: 10pt;
      font-family: 'Montserrat', sans-serif;
      font-weight: 300;
      letter-spacing:1.5pt;
