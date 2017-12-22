@@ -12,7 +12,7 @@
                 for (var i=0; i<anchors.length; i++){
                         anchors[i].setAttribute('target', '_blank');
                     }
-                    $('#page-container').scrollIntoView();
+                    $(document).scrollTop( $("#header").offset().top ); 
                     $('#page-container').show();
                });
         </script>
