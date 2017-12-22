@@ -97,6 +97,11 @@ a{
      font-weight: 300;
      letter-spacing:1.5pt;
      text-transform: uppercase;
+     text-decoration: none;
+ }
+
+ .allcaps a{
+     font-weight: bold;
  }
  
  img{
