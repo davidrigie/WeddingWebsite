@@ -59,6 +59,10 @@
      padding-bottom: 50pt;
  }
  
+ a{
+    color: black;
+}
+
  li.pure-menu-selected a{
      color: rgba(255,253,250,1.0);;
      border-bottom: 2px solid rgb(240,240,240);
@@ -84,9 +88,6 @@
     font-size: 11pt;
 }
 
-a{
-    color: black;
-}
 
 
  p{
