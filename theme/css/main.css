@@ -54,7 +54,7 @@
      padding-bottom: 50pt;
  }
  
- a.current{
+ li.pure-menu-item-selected{
      color: black;
      border-bottom: 2px solid rgb(240,240,240);
      padding-left: 1pt;
@@ -93,7 +93,7 @@
  }
   
  .entry-content p{
-     max-width: 75%;
+     max-width: 70%;
      margin: auto;
      margin-top: 20pt;
  }
