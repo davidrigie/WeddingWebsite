@@ -185,6 +185,7 @@ a{
     #Home #mobile-logo{
         display: block;
         max-width: 55%;
+        margin: 0 auto;
     }
 
     div.pure-menu-horizontal{
