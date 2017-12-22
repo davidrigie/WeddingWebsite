@@ -88,12 +88,12 @@
  }
 
  div.main-image{
-    max-width: 80%;
+    max-width: 60%;
     margin: 0 auto;
  }
   
  .entry-content p{
-     max-width: 40%;
+     max-width: 50%;
      margin: auto;
      margin-top: 20pt;
  }
