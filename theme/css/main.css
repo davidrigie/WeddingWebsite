@@ -127,6 +127,7 @@ a{
     body{
         padding: 0pt;
         min-width:100%;
+        min-height: 100vh;
     }
     div#page-container{
         margin: 0pt;
