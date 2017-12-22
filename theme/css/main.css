@@ -115,7 +115,7 @@ a{
  
  .entry-content p{
      max-width: 70%;
-     margin: auto;
+     margin: 0 auto;
  }
 
  .entry-content p+p,div+p,p+div,div+div{
@@ -271,9 +271,5 @@ a{
         font-size: 18pt;
     }
 
-    footer{
-        position: absolute;
-    }
-
-
+ 
 }
