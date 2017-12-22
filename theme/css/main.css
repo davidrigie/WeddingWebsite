@@ -5,6 +5,10 @@
     text-align: center; 
     background-color: rgb(247,247,247);
  }
+
+ body{
+     visibility: hidden;
+ }
  
  div#nav-container{
      overflow: hidden;
