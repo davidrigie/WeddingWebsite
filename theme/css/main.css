@@ -165,7 +165,7 @@ li.pure-menu-selected a.pure-menu-link{
     }
 
     div.navigation hr{
-        border-color: color: rgba(255,253,250,1.0);
+        display: none;
     }
 
     div.pure-menu{
@@ -256,8 +256,8 @@ li.pure-menu-selected a.pure-menu-link{
     }
 
     div#content{
-        margin-top: 75pt;
-        padding-top: 25pt;
+        margin-top: 0pt;
+        padding-top: 100pt;;
     }
 
     .entry-content p{
