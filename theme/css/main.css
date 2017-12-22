@@ -147,11 +147,11 @@ a{
         width: 100%;
     }
 
-    div.navigation-container{
+    div.nav-container{
         width: 100%;
     }
 
-    div.navigation-container hr{
+    div.nav-container hr{
         display: none;
     }
 
