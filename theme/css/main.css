@@ -149,7 +149,7 @@ a{
     }
 
     div.navigation{
-        position: static;
+        position: fixed;
         width: 100%;
     }
 
