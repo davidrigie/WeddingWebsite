@@ -149,7 +149,7 @@ a{
     }
 
     div.pure-menu{
-        width: 100%;
+        min-width: 100%;
     }
 
     li.pure-menu-item{
@@ -178,7 +178,7 @@ a{
     }
 
     div.pure-menu-horizontal{
-        width: 100%;
+        min-width: 100%;
     }
    
 
