@@ -189,6 +189,7 @@ a{
 
     ul.pure-menu-list{
         margin: 0 auto;
+        position: absolute;
         padding: 0;
         top: 0;
         left: 0;
