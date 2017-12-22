@@ -99,10 +99,6 @@ a{
      text-transform: uppercase;
  }
 
- .allcaps a{
-     font-weight: bold;
-     text-decoration: none;
- }
  
  img{
      max-width: 100%;
