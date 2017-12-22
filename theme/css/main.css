@@ -94,12 +94,12 @@
     margin: 0 auto;
  }
  
- .entry-content div+p, p+p
- {
-    margin-top: 20pt;
- }
-
  .entry-content p{
      max-width: 70%;
      margin: auto;
+ }
+
+ .entry-content div+p, p+p
+ {
+    margin-top: 20pt;
  }
