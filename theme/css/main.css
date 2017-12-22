@@ -149,13 +149,12 @@ a{
         top: 0; /* Position the navbar at the top of the page */
         left:0;
         min-width: 100%; /* Full width */
-        background-color: rgba(255,253,250,0.5);
     }
 
     div.navigation{
         position: static;
         width: 100%;
-        background-color: white;
+        background-color: rgba(255,255,255,0.5);
     }
 
     div.pure-menu{
