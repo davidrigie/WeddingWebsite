@@ -155,6 +155,7 @@ a{
     div.navigation{
         position: static;
         width: 100%;
+        background-color: none;
     }
 
     div.pure-menu{
