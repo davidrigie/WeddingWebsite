@@ -230,10 +230,12 @@ a{
     div.entry-content{
         padding: 0pt;
     }
+
     .entry-content p{
         max-width: 90%;
         padding:0pt;
         margin: auto;
+        margin-top: 50pt;
     }
 
     h3{
