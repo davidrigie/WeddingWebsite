@@ -160,7 +160,7 @@ a{
     }
 
     div.navigation hr{
-        border-color: rgba(0,0,0,0.5);
+        border-color: rgba(0,0,0,0.75);
     }
 
     div.pure-menu{
@@ -175,7 +175,7 @@ a{
         padding: 0pt 2pt;
         margin: 20pt 10pt;
         text-transform: uppercase;
-        font-color: rgb(255,253,250);
+        color: rgb(255,253,250);
     }
 
     ul{
