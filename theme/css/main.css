@@ -143,12 +143,15 @@ a{
         position: static;
         width: 100%;
     }
-    ul.pure-menu-list{
-        width: 100%;
-    }
 
-    div.nav-container{
-        width: 100%;
+    li.pure-menu-item{
+        font-size: 12pt;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1.5pt;
+        padding-left: 7pt;
+        padding-right: 7pt;
+        text-transform: uppercase;
     }
 
     div.nav-container hr{
