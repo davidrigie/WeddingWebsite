@@ -127,7 +127,7 @@ a{
         width: 100%;
     }
     #Home {
-        display: hidden;
+        display: none;
 
     }
 }
