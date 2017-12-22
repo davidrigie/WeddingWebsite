@@ -6,7 +6,7 @@
 {% block main_image %}
 {% if page.main_image %}
 <div class="main-image">
-    <img alt="{{ page.main_image_alt }}" src="{{ page.main_image }}">
+    <img alt="{{ page.main_image_alt }}" src="{{ SITEURL }}/images/{{ page.main_image }}">
 </div>
 {% endif %}
 {% endblock %}

@@ -26,10 +26,10 @@ AUTHOR_FEED_RSS = None
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (
-    ('Home',     '/WeddingWebsite/pages/home.html'),
-    ('Wedding',  '/WeddingWebsite/pages/wedding.html'),
-    ('Travel',   '/WeddingWebsite/pages/travel.html'),
-    ('Registry', '/WeddingWebsite/pages/registry.html')
+    ('Home',     '/index.html'),
+    ('Wedding',  '/pages/wedding.html'),
+    ('Travel',   '/pages/travel.html'),
+    ('Registry', '/pages/registry.html')
     )
 
 # Blogroll
