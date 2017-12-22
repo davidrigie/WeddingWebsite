@@ -99,7 +99,6 @@
      margin: auto;
  }
 
- .entry-content div+p, p+p
- {
+ .entry-content div+p, p+p{
     margin-top: 20pt;
  }
