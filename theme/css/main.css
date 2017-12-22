@@ -189,9 +189,9 @@ a{
 
     ul.pure-menu-list{
         margin: 0 auto;
-        position: absolute;
+        position: relative;
         padding: 0;
-  
+        top: 0;
 
     a.pure-menu-link{
         color: rgba(255,253,250, 0.75);
