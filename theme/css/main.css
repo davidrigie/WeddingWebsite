@@ -180,6 +180,10 @@ a{
     div.pure-menu-horizontal{
         min-width: 100%;
     }
+
+    nav-container{
+        overflow: visible;
+    }
    
 
 }
