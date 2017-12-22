@@ -94,7 +94,8 @@
     margin: 0 auto;
  }
   
- .entry-content p{
-     max-width: 70%;
-     margin: auto;
+ .entry-content p+p, div+p{
+     margin-top: 20pt;
  }
+
+ .entry-content 
