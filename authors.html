@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script type="text/javascript">
             function setup() {
-                document.getElementById('page-container').scrollIntoView({behavior: "instant", block: "start", inline: "start"});
+                document.getElementById('page-container').scrollIntoView();
                 var anchors = document.querySelectorAll(".entry-content a");
                 for (var i=0; i<anchors.length; i++){
                     anchors[i].setAttribute('target', '_blank');
