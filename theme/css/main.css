@@ -148,6 +148,10 @@ a{
         width: 100%;
     }
 
+    div.pure-menu{
+        width: 100%;
+    }
+
     li.pure-menu-item{
         font-size: 12pt;
         font-weight: 500;
