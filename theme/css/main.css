@@ -126,8 +126,11 @@ a{
         margin: 0pt;
         width: 100%;
     }
-    #Home {
+    #logo{
         display: none;
 
+    }
+    #Home #logo{
+        display: block;
     }
 }
