@@ -127,7 +127,7 @@ a{
     html, body{
         padding: 0pt;
         min-width:100vw;
-        min-height: 100vh;
+        min-height: 200vh;
         position: relative;
     }
     div#page-container{
