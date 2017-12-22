@@ -124,7 +124,7 @@ a{
 
  @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    body{
+    html, body{
         padding: 0pt;
         min-width:100%;
         min-height: 100vh;
