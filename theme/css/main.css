@@ -149,7 +149,7 @@ a{
         left:0;
         min-width: 100%; /* Full width */
         height: 75pt;
-        background-color: rgb(255,253,250);
+        background-color: transparent;
     }
 
     div.navigation{
