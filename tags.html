@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="./theme/css/main.css" />
         <script type="text/javascript">
             function gototop() {
-                document.getElementById('page-container').scrollIntoView(true);
+                document.getElementById('page-container').scrollIntoView({behavior: "smooth", block: "start", inline: "start"});
             }
             window.onload = gototop;
             </script>
