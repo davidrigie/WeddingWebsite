@@ -139,6 +139,10 @@ a{
 
     }
 
+    div.nav-container{
+        padding: 0pt;
+    }
+
     div.navigation,div.pure-menu-horizontal{
         position: static;
         width: 100%;
