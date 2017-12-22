@@ -7,10 +7,10 @@
         <script type="text/javascript">
             function setup() {
                 document.getElementById('page-container').scrollIntoView({behavior: "smooth", block: "start", inline: "start"});
-                var anchors = document.getElementsByClassName("entry-content").getElementsByTagName('a');
+                var anchors = document.querySelectorAll(".entry-content a");
                 for (var i=0; i<anchors.length; i++){
                     anchors[i].setAttribute('target', '_blank');
-  }
+                 }
             }
             window.onload = setup;
         </script>
