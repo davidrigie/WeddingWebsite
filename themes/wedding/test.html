@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        {% block head %}
         <title>Home</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,6 +11,7 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,500|Raleway:300" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400" rel="stylesheet">
         <link rel="stylesheet" href="main.css" />
+        {% endblock head %}
 
 </head>
 <body>
@@ -22,40 +24,33 @@
             <hr id="navigation">
             <div class="navigation pure-menu pure-menu-horizontal">
                 <ul class="pure-menu-list">
-                    <li class="pure-menu-item"><a href="/WeddingWebsite/pages/home.html" class="pure-menu-link current">HOME</a></li>
-                    <li class="pure-menu-item"><a href="/WeddingWebsite/pages/wedding.html" class="pure-menu-link">WEDDING</a></li>
-                    <li class="pure-menu-item"><a href="/WeddingWebsite/pages/travel.html" class="pure-menu-link">TRAVEL</a></li>
-                    <li class="pure-menu-item"><a href="/WeddingWebsite/pages/registry.html" class="pure-menu-link">REGISTRY</a></li>
+                    <li class="pure-menu-item"></li>
+                    {% for title, link in MENUITEMS %}
+                    <li class="pure-menu-item"><a href="{{ link }}" class="pure-menu-link">{{ title }}</a></li>
+                    {% endfor %}
+        
+                    {% if DISPLAY_PAGES_ON_MENU %}
+                    {% for p in pages %}
+                    <li class="pure-menu-item{% if p == page %} pure-menu-selected{% endif %}"><a href="{{ SITEURL }}/{{ p.url }}" class="pure-menu-link">{{ p.title }}</a></li>
+                    {% endfor %}
+                    {% endif %}
                 </ul>
             </div>
-        </div>
+        </div> 
 
-
-
-    <div class="entry-content">
-        
-        <div class="main-image">
-            <img alt="Dryhop" src="../../content/images/banner_pics/dryhop.jpg">
-        </div>
-
-        <p class="allcaps">SUNDAY, MAY 27, 2018  </p>
-
-        <p>Molly and Dave joyfully request the pleasure of your company as we speak our vows and join in marriage in the presence of family and friends.</p>
-    
+    <div>
+        <img
     </div>
+    
+    {% block main_image %}
+    {% endblock %}
+
+    {% block content %}
+    {% endblock %}            
 
     <hr>
 
 </div>
-
-    <footer>
-
-    </footer>
-
-</div>
-
-
-
     <footer class="index-footer">
 
 

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        {% block head %}
+        <title>Home</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,500|Raleway:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400" rel="stylesheet">
+        <link rel="stylesheet" href="../theme/css/main.css" />
+        {% endblock head %}
+
+</head>
+<body>
+
+<div id="page-container">
+    <div id="logo">
+        <img src="../images/mollydave.png" alt="mollydave">
+    </div>
+        <div class="nav-container">
+            <hr id="navigation">
+            <div class="navigation pure-menu pure-menu-horizontal">
+                <ul class="pure-menu-list">
+                    {% for title, link in MENUITEMS %}
+                    <li class="pure-menu-item{% if page_title == title %} pure-menu-selected{% endif %}"><a href="{{ link }}" class="pure-menu-link">{{ title }}</a></li>
+                    {% endfor %}
+        
+                    {% if DISPLAY_PAGES_ON_MENU %}
+                    {% for p in pages %}
+                    <li class="pure-menu-item{% if p == page %} pure-menu-selected{% endif %}"><a href="{{ SITEURL }}/{{ p.url }}" class="pure-menu-link">{{ p.title }}</a></li>
+                    {% endfor %}
+                    {% endif %}
+                </ul>
+            </div>
+        </div> 
+
+    <div>
+
+    </div>
+    
+    {% block main_image %}
+    
+    {% endblock %}
+
+    {% block content %}
+    {% endblock %}            
+
+    <hr>
+
+
+</div>
+    <footer class="index-footer">
+
+
+    </footer>
+
+</body>
+</html>

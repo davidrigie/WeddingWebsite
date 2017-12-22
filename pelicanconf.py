@@ -7,7 +7,7 @@ SITENAME = ''
 SITEURL = 'http://daveandmolly.org'
 LOGO    = '../images/mollydave.png'
 
-THEME = './themes/medius'
+THEME = './themes/wedding'
 
 PATH = 'content'
 
@@ -26,10 +26,10 @@ AUTHOR_FEED_RSS = None
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (
-    ('HOME',     '/WeddingWebsite/pages/home.html'),
-    ('WEDDING',  '/WeddingWebsite/pages/wedding.html'),
-    ('TRAVEL',   '/WeddingWebsite/pages/travel.html'),
-    ('REGISTRY', '/WeddingWebsite/pages/registry.html')
+    ('Home',     '/WeddingWebsite/pages/home.html'),
+    ('Wedding',  '/WeddingWebsite/pages/wedding.html'),
+    ('Travel',   '/WeddingWebsite/pages/travel.html'),
+    ('Registry', '/WeddingWebsite/pages/registry.html')
     )
 
 # Blogroll

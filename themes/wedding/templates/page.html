@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title|striptags }}{% endblock %}
+
+{% set page_title = page.title %}
+
+{% block main_image %}
+{% if page.main_image %}
+<div class="main-image">
+    <img alt="{{ page.main_image_alt }}" src="{{ page.main_image }}">
+</div>
+{% endif %}
+{% endblock %}
+
+{% block content %}
+
+<div class="entry-content{% if page.home is defined %} home-content{% endif %}">
+    {{ page.content }}
+</div>
+
+<footer>
+
+</footer>
+
+</div>
+
+{% endblock %}
