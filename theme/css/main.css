@@ -175,6 +175,10 @@ a{
         color: rgb(255,253,250);
     }
 
+    a.pure-menu-link{
+        color: rgba(255,253,250, 0.75);
+    }
+
     ul{
         margin: 0 auto;
     }
