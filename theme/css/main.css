@@ -149,6 +149,7 @@ a{
         top: 0; /* Position the navbar at the top of the page */
         left:0;
         min-width: 100%; /* Full width */
+        background-color: rgb(255,253,250);
     }
 
     div.navigation{
