@@ -231,7 +231,8 @@ a{
 
     div.entry-content{
         padding: 0pt;
-        margin-top: 150pt;
+        margin-top: 75pt;
+        padding-top: 50pt;
     }
 
     .entry-content p{
