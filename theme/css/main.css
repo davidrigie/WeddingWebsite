@@ -145,6 +145,7 @@ a{
         padding: 0pt;
         margin-top: 0pt;
         padding: 0pt;
+        position: fixed;
     }
 
     div.navigation{
