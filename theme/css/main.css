@@ -54,7 +54,7 @@
      padding-bottom: 50pt;
  }
  
- li.pure-menu-item-selected{
+ li.pure-menu-selected{
      color: black;
      border-bottom: 2px solid rgb(240,240,240);
      padding-left: 1pt;
