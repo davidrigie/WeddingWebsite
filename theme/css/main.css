@@ -196,7 +196,7 @@ a{
     }
 
     .allcaps{
-        font-size: 16pt;
+        font-size: 14pt;
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         letter-spacing:1.5pt;
@@ -229,5 +229,10 @@ a{
         padding:0pt;
         margin: auto;
     }
+
+    h3{
+        font-size: 16pt;
+    }
+
 
 }
