@@ -187,6 +187,11 @@ li.pure-menu-selected a.pure-menu-link{
     li.pure-menu-selected {
         color: rgba(255,253,250,1.0);
     }
+
+    .pure-menu-selected .pure-menu-link, .pure-menu-selected .pure-menu-link:visited {
+        color: rgba(255,253,250,1.0);
+
+    {
    
 
     ul{
