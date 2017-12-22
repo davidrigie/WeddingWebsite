@@ -132,8 +132,8 @@ a{
     }
     div#page-container{
         margin: 0pt;
-        min-width: 100vw;
-        min-height: 100vh;
+        min-width: 100%;
+        min-height: 100%;
         padding: 0 5%;
         padding-bottom: 10%;
     }
