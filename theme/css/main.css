@@ -91,7 +91,7 @@ a{
      line-height: 150%;
  }
  
- p.allcaps{
+ .allcaps{
      font-size: 10pt;
      font-family: 'Montserrat', sans-serif;
      font-weight: 300;
