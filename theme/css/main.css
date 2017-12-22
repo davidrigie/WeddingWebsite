@@ -126,8 +126,8 @@ a{
     /* For mobile phones: */
     html, body{
         padding: 0pt;
-        min-height: 100vh;
-        min-width: 100vh;
+        min-height: 100%;
+        min-width: 100%;
     }
     div#page-container{
         margin: 0pt;
