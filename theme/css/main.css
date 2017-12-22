@@ -231,13 +231,13 @@ a{
 
     div.entry-content{
         padding: 0pt;
+        margin-top: 75pt;
     }
 
     .entry-content p{
         max-width: 90%;
         padding:0pt;
         margin: auto;
-        margin-top: 150pt;
     }
 
     h3{
