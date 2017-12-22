@@ -11,7 +11,7 @@
                 for (var i=0; i<anchors.length; i++){
                     anchors[i].setAttribute('target', '_blank');
                  }
-                 document.getElementByTagName("body").style.visibility = "visible"
+                 document.getElementsByTagName("body")[0].style.visibility = "visible"
             }
             window.onload = setup;
         </script>
