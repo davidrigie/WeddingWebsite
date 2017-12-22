@@ -249,8 +249,8 @@ li.pure-menu-selected a.pure-menu-link{
     }
 
     div#content{
-        margin-top: 75pt;
-        padding-top: 25pt;
+        margin-top: 0pt;
+        padding-top: 100pt;
     }
 
     .entry-content p{
