@@ -177,7 +177,7 @@ a{
         text-transform: uppercase;
     }
 
-    a{
+    li.pure-menu-item a{
         color: rgb(255,253,250);
     }
 
