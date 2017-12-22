@@ -147,6 +147,14 @@ a{
         width: 100%;
     }
 
+    div.navigation-container{
+        width: 100%;
+    }
+
+    div.navigation-container hr{
+        display: none;
+    }
+
     #Home #mobile-logo{
         display: block;
         max-width: 55%;
