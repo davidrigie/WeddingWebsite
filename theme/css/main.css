@@ -272,5 +272,9 @@ a{
         font-size: 18pt;
     }
 
+    footer{
+        position: absolute;
+    }
+
 
 }
