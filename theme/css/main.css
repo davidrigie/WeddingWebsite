@@ -134,4 +134,7 @@ a{
     #Home #logo{
         display: block;
     }
+    div.navigation{
+        position: static;
+    }
 }
