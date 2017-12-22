@@ -88,7 +88,7 @@
     font-size: 11pt;
 }
 
-a.pure-menu-link:visited{
+li.pure-menu-selected a.pure-menu-link{
     color: rgb(255,253,250);
 }
 
