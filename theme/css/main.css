@@ -60,7 +60,7 @@
  }
  
  li.pure-menu-selected{
-     color: red;
+     color: rgba(255,253,250,1.0);;
      border-bottom: 2px solid rgb(240,240,240);
      padding-left: 1pt;
      padding-right: 1pt;
