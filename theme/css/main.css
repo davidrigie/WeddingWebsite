@@ -191,9 +191,9 @@ a{
    
 
     p{
-        font-size: 16pt;
+        font-size: 18pt;
         line-height: 150%;
-        font-family: serif;
+        font-family: 'Montserrat', sans-serif
     }
 
     .allcaps{
