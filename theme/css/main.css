@@ -220,7 +220,7 @@ a{
     margin: 0 auto;
     }
 
-    .entry-content{
+    div.entry-content{
         padding: 0pt;
     }
     .entry-content p{
