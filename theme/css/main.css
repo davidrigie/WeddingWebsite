@@ -119,3 +119,11 @@ a{
  .entry-content p+p,div+p,p+div,div+div{
     margin-top: 20pt;
  }
+
+ @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    div#page-container{
+        margin: 0pt;
+        width: 100%;
+    }
+}
