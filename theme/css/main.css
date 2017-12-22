@@ -132,7 +132,7 @@ a{
         margin: 0pt;
         min-width: 100%;
         min-height: 100%;
-        padding-top: 20pt;
+        padding-top: 0pt;
     }
     #logo{
         display: none;
@@ -159,8 +159,7 @@ a{
         font-weight: 500;
         font-family: 'Montserrat', sans-serif;
         letter-spacing: 1.5pt;
-        padding-left: 7pt;
-        padding-right: 7pt;
+        padding: 7pt;
         text-transform: uppercase;
     }
 
