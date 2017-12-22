@@ -202,6 +202,14 @@ a{
         text-transform: uppercase;
     }
 
+    .home-content p{
+        font-size: 16pt;
+    }
+   
+    .home-content p.allcaps{
+       font-size: 14pt;
+   }
+
 
     img{
         max-width: 100%;
