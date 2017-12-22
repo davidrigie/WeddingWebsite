@@ -164,9 +164,6 @@ li.pure-menu-selected a.pure-menu-link{
         left: 0;
     }
 
-    div.navigation hr{
-        display: none;
-    }
 
     div.pure-menu{
         min-width: 100%;
@@ -201,6 +198,10 @@ li.pure-menu-selected a.pure-menu-link{
     }
 
     div.nav-container hr{
+        display: none;
+    }
+
+    hr#navigation{
         display: none;
     }
 
