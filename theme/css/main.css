@@ -86,6 +86,11 @@
  img{
      max-width: 100%;
  }
+
+ div.main-image{
+    max-width: 80%;
+    margin: 0 auto;
+ }
  
  .entry-content div{
      max-width: 80%;
