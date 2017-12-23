@@ -141,6 +141,8 @@ a.pure-menu-link{
  }
 
  @media only screen and (max-width: 768px) {
+
+
     /* For mobile phones: */
     html, body{
         min-height: 100vh;
@@ -148,6 +150,11 @@ a.pure-menu-link{
         height: 100vh;
         width: 100vw;
         background-color: rgb(255,253,250);
+    }
+
+    iframe{
+        max-width: 100%;
+        min-width: 0;
     }
 
     #hamburger{
