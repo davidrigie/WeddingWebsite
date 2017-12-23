@@ -269,13 +269,13 @@ a.pure-menu-link{
     }
 
     p{
-        font-size: 18pt;
+        font-size: 12pt;
         line-height: 150%;
         font-family: 'PT Serif', serif;
     }
 
     .allcaps{
-        font-size: 18pt;
+        font-size: 12pt;
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         letter-spacing:1.5pt;
@@ -283,11 +283,11 @@ a.pure-menu-link{
     }
 
     .home-content p{
-        font-size: 20pt;
+        font-size: 12pt;
     }
    
     .home-content p.allcaps{
-       font-size: 20pt;
+       font-size: 12pt;
    }
 
 
@@ -309,7 +309,7 @@ a.pure-menu-link{
         margin: 0 auto;
         padding-left: 0;
         padding-right: 0;
-        padding-top: 75pt;
+        padding-top: 65pt;
         padding-bottom: 20pt;
         max-width: 100%;
     }
@@ -319,8 +319,12 @@ a.pure-menu-link{
         padding-bottom:1px;
     }
 
+    p:first-child{
+        margin-top: -25pt;
+    }
+
     h3{
-        font-size: 18pt;
+        font-size: 14pt;
     }
 
     #footsep{
