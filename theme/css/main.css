@@ -319,6 +319,10 @@ a.pure-menu-link{
         padding-bottom:1px;
     }
 
+    p:first-child{
+        margin-top: -25pt;
+    }
+
     h3{
         font-size: 14pt;
     }
