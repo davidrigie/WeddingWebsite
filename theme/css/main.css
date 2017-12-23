@@ -285,5 +285,8 @@ a{
         font-size: 18pt;
     }
 
+    #footsep{
+        display: none;
+    }
  
 }
