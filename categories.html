@@ -4,15 +4,47 @@
         <title>Home</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,500" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet" />
-        <link rel="stylesheet" href="./theme/css/main.css" />
+        <link rel="stylesheet" href="theme/css/main.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
         
+        
+        
+        
+        
+        <script type="text/javascript">
+
+            // Wait for the page to load first
+            window.onload = function() {
+    
+              //Get a reference to the link on the page
+              // with an id of "mylink"
+              var a = document.getElementById("hamburger");
+    
+              //Set code to run when the link is clicked
+              // by assigning a function to "onclick"
+              a.onclick = function() {
+
+                $("#menu").slideToggle();
+
+    
+                //If you don't want the link to actually 
+                // redirect the browser to another page,
+                // "google.com" in our example here, then
+                // return false at the end of this block.
+                // Note that this also prevents event bubbling,
+                // which is probably what we want here, but won't 
+                // always be the case.
+                return false;
+              }
+            }
+            
+        </script>
+
         
 
 
@@ -25,7 +57,10 @@
             <div class="nav-container">
                 <hr id="navigation">
                 <div class="navigation pure-menu pure-menu-horizontal">
-                    <ul class="pure-menu-list">
+                    <ul id="hamburger">
+                        <li class="pure-menu-item"><a class="pure-menu-link">☰</a></li>
+                    </ul>
+                    <ul class="pure-menu-list" id="menu">
                         <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Home</a></li>
                         <li class="pure-menu-item"><a href="wedding.html" class="pure-menu-link">Wedding</a></li>
                         <li class="pure-menu-item"><a href="travel.html" class="pure-menu-link">Travel</a></li>
