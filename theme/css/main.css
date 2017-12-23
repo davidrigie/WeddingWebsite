@@ -168,7 +168,7 @@ a{
     
 
     div.pure-menu{
-        min-width: 100%;
+        min-width: 100vw;
     }
 
     li.pure-menu-item{
@@ -225,7 +225,7 @@ a{
     }
 
     div.pure-menu-horizontal{
-        min-width: 100%;
+        min-width: 100vw;
     }
 
     nav-container{
@@ -257,7 +257,7 @@ a{
 
 
     img{
-        max-width: 100%;
+        max-width: 100vw;
     }
 
     div.main-image{
