@@ -103,7 +103,12 @@ a{
 
 a.pure-menu-link{
     text-decoration: none;
+    color: rgba(0,0,0,0.5);
 
+}
+
+.pure-menu-selected a.pure-menu-link{
+    color: rgba(0,0,0,0.9);
 }
 
 
