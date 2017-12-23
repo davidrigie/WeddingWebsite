@@ -26,11 +26,14 @@ AUTHOR_FEED_RSS = None
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (
-    ('Home',     '/index.html'),
-    ('Wedding',  '/pages/wedding.html'),
-    ('Travel',   '/pages/travel.html'),
-    ('Registry', '/pages/registry.html')
+    ('Home',     'index.html'),
+    ('Wedding',  'wedding.html'),
+    ('Travel',   'travel.html'),
+    ('Registry', 'registry.html')
     )
+
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
 
 # Blogroll
 #LINKS = (('Pelican', 'http://getpelican.com/'),
@@ -49,3 +52,4 @@ DEFAULT_PAGINATION = False
 
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+
