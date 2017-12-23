@@ -187,8 +187,7 @@ a.pure-menu-link{
         top: auto;
         left: auto;
         padding: 0;
-        margin: 0 auto;
-        max-width: 100vw;
+        width: 100vw;
         position: static;
         background-color: transparent;
     }
@@ -204,6 +203,7 @@ a.pure-menu-link{
         text-decoration: underline;
         text-underline-position: under;
         border: 0;
+        width: 100vw;
         
     }
 
