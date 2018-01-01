@@ -2,7 +2,7 @@ Title: Wedding
 
 [![Revolution Brewing]({filename}/images/revolution_brewing_facade.jpg)](https://revbrew.com/brewpub/overview)
 
-The wedding will be held on Sunday, May 27, 2018 (Monday is a holiday). The dress code is sorta casual... jacket/tie optional, ten gallon hat encouraged!
+The wedding will be held on Sunday, May 27, 2018 (Monday is a Memorial Day).
 
 ### CEREMONY AND RECEPTION
 
