@@ -4,7 +4,7 @@ Revolution Brewing is located in the Logan Square neighborhood. It is a two-minu
 
 ### ACCOMODATIONS
 
-For your convenience, we have arranged a block of hotel rooms at [The Alise Hotel](http://www.thealisechicago.com/). Please mention the Sadinski & Rigie Wedding when making reservations by phone to get the discounted rate. Reservations can also be made online via the link below for the nights of Saturday May 26 and Sunday May 27. Additional nights can be requested by phone.
+For your convenience, we have arranged a block of hotel rooms at [The Alise Hotel](http://www.thealisechicago.com/). Please mention the Sadinski & Rigie Wedding when making reservations by phone to get the discounted rate. Reservations can also be made online via the link below for the nights of Saturday May 26 and Sunday May 27. Additional nights can be requested by phone. Reservations need to be made before April 26th.
 
 
    <p class="allcaps">The Alise Hotel<br>1 W. Washington Street<br>1-866-866-7977</p>
